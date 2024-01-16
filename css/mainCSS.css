@@ -1,0 +1,107 @@
+/*main css*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-style: normal;
+    line-height: normal;
+
+    font-family: 'Tinos', serif;
+}
+a {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    transition: opacity .3s ease;
+}
+a:hover {
+    opacity: .5;
+    text-decoration: underline;
+}
+
+.container {
+    padding: 0 166px;
+    margin: 0 auto;
+}
+/*header*/
+.header {
+    background-image: url(../img/header/bg.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header__line {
+    padding-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header__logo {
+}
+.header__nav {
+    display: flex;
+    column-gap: 25px;
+
+    margin-right: 25px;
+}
+.header__nav a{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header__info {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.header__cart {
+    position: relative;
+
+    padding-top: 6px;
+    padding-right: 18px;
+}
+.header__cart::after {
+    content: '';
+    position: absolute;
+
+    width: 1px;
+    height: 50px;
+    display: block;
+    background-color: #fff;
+
+    top: -16px;
+    right: 0;;
+}
+
+.header__phone {
+}
+.header__phone-holder {
+    display: flex;
+    align-items: center;
+}
+.header__phone-img {
+}
+.header__phone-number {
+    font-size: 18px;
+    font-weight: 700;
+}
+.header__phone-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+.header__btn {
+    background-color: #FF7400;
+    padding: 14px 18px;
+
+    transition: background-color .3s ease;
+}
+.header__btn:hover {
+    opacity: 1;
+    background-color: #984704;
+}
+
+/*only now you need this madia teg (commit 1-?...)*/
+@media (max-width:1000px) {
+    .container {
+        padding: 0 66px;
+    }
+}
