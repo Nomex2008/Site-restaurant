@@ -164,15 +164,46 @@ a:hover {
 /*card*/
 .cards {
 }
-.container {
+.cards__holder {
+    display: flex;
+    justify-content: center;
 }
 .cards__card {
+    background: #FFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.10);
+    width: 349px;
+    margin-right: 31px;
+    margin-top: -137px;
+
+    padding: 0 10px;
 }
 .cards__img {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
 }
 .cards__title {
+    color: #2C2C2C;
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.cards__title span {
+    color: #BC9060;
+    font-size: 26px;
+    font-weight: 400;
+    padding-left: 3px;
 }
 .cards__text {
+    color: #656363;
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
 }
 
 
