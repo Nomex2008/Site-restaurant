@@ -206,6 +206,14 @@ a:hover {
     text-align: center;
 }
 
+/*history*/
+.history {
+}
+.history__title {
+}
+.history__text {
+}
+
 
 /*only now you need this madia teg (commit 1-2-3-?...)*/
 @media (max-width:1000px) {
