@@ -161,8 +161,22 @@ a:hover {
     background-color: #984704;
 }
 
+/*card*/
+.cards {
+}
+.container {
+}
+.cards__card {
+}
+.cards__img {
+}
+.cards__title {
+}
+.cards__text {
+}
 
-/*only now you need this madia teg (commit 1-2-?...)*/
+
+/*only now you need this madia teg (commit 1-2-3-?...)*/
 @media (max-width:1000px) {
     .container {
         padding: 0 66px;
