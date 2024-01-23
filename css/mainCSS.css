@@ -6,6 +6,8 @@ body {
     line-height: normal;
 
     font-family: 'Tinos', serif;
+
+    overflow-x: hidden;
 }
 a {
     font-family: 'Open Sans', sans-serif;
