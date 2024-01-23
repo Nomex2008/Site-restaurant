@@ -211,6 +211,7 @@ a:hover {
 /*history*/
 .history {
     margin-top: 166px;
+    padding-bottom: 200px;
 }
 .history__holder {
     display: flex;
@@ -284,6 +285,50 @@ a:hover {
     left: 481px;
 }
 
+/*blackBlock*/
+.blackBlock {
+    background-image: url(../img/blackBlock/1.jpg);
+    padding: 80px 0;
+}
+.blackBlock__holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blackBlock__left {
+    max-width: 600px;
+}
+.blackBlock-title {
+    color: #D67E34;
+    font-size: 52px;
+    font-weight: 400;
+
+    margin-bottom: 20px;
+}
+.blackBlock-text {
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+}
+.blackBlock__right {
+    
+}
+.blackBlock__button {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+}
+.blackBlock__btn {
+    background: #FF7400;
+    padding: 14px 18px;
+
+    transition: color .3s ease;
+}
+.blackBlock__btn:hover {
+    opacity: 1;
+    color: #656363;
+}
 
 /*only now you need this madia teg (commit 1-2-3-?...)*/
 @media (max-width:1000px) {
