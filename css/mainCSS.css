@@ -374,6 +374,39 @@ a:hover {
     margin-left: 20px;
 }
 
+/*menu*/
+.menu {
+    background-image: url(../img/menu/bar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu__title {
+    color: #FFF;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    font-size: 54px;
+    font-weight: 400;
+    text-align: center;
+
+    padding-top: 98px;
+    padding-bottom: 138px;
+}
+.menu__items {
+}
+.menu__item {
+}
+.menu__image {
+}
+.menu__img {
+}
+.menu__text {
+}
+.menu__subtext {
+}
+.menu__button {
+}
+.menu__btn {
+}
+
 /*only now you need this madia teg (commit 1-2-3-?...)*/
 @media (max-width:1000px) {
     .container {
