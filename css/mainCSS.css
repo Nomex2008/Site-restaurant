@@ -466,6 +466,18 @@ a:hover {
     display: inline-block;
 }   
 
+/*coment*/
+.coment {
+}
+.coment__text {
+}
+.coment__img {
+}
+.coment__type {
+}
+.coment__name {
+}
+
 /*only now you need this madia teg (commit 1-2-3-?...)*/
 @media (max-width:1000px) {
     .container {
