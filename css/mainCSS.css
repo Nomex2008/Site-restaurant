@@ -1,6 +1,6 @@
 /*main css*/
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tinos', sans-serif;
     color: #fff;
     font-style: normal;
     line-height: normal;
@@ -333,6 +333,7 @@ a:hover {
 /*dishes*/
 .dishes {
     padding-top: 132px;
+    padding-bottom: 130px;
 }
 .dishes__title {
     color: #000;
@@ -379,6 +380,8 @@ a:hover {
     background-image: url(../img/menu/bar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    padding-bottom: 200px;
 }
 .menu__title {
     color: #FFF;
@@ -481,7 +484,10 @@ a:hover {
     font-style: italic;
     font-weight: 400;
 
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+    max-width: 920px;
+    margin: 0 auto;
 }
 .coment__img {
     text-align: center;
@@ -505,6 +511,89 @@ a:hover {
     font-weight: 400;
     text-align: center;
     margin-top: 6px;
+}
+
+/*gallery*/
+.gallery {
+    padding: 100px 0;
+}
+.gallery__title {
+    color: #000;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: center;
+
+    margin-bottom: 60px;
+}
+.gallery__title span{
+    color: #D67E34;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.gallery__content {
+    display: flex;
+    justify-content: center;
+}
+.gallery__left {
+    margin-right: 20px;
+}
+.gallery__up {
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.gallery__down {
+    display: flex;
+    justify-content: space-between;
+}
+.gallery__right {
+}
+
+/*cook*/
+.cook {
+    padding: 0px 0 100px;
+}
+.cook__title {
+    color: #000;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    text-align: center;
+
+    margin-bottom: 60px;
+}
+.cook__title span{
+    color: #D67E34;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cook__content {
+    display: flex;
+    justify-content: space-around;
+}
+.cook__content img{
+    max-width: 30%;
+    height: auto;
+    width: 30%;
+}
+
+/*footer*/
+.footer {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    padding: 50px 0px;
+    background-color: #000;
 }
 
 /*only now you need this madia teg (commit 1-2-3-?...)*/
