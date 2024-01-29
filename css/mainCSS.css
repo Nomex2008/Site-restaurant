@@ -595,10 +595,38 @@ a:hover {
     padding: 50px 0px;
     background-color: #000;
 }
+/*menu__image*/
+.menu__image img {
+    max-width: 100%;
+    height: auto;
+}
 
 /*only now you need this madia teg (commit 1-2-3-?...)*/
-@media (max-width:1000px) {
+@media (max-width:1500px) {
     .container {
         padding: 0 66px;
+    }
+    .gallery__content {
+        display: block;
+    }
+    .gallery__up,
+    .gallery__down {
+        display: block;
+    }
+    .gallery__left {
+        margin-right: 0px;
+    }
+    .gallery__img {
+        display: block;
+        margin: 0 auto 20px;
+    }
+}
+@media (max-width:1300px) {
+    .menu__items {
+        display: block;
+    }
+    .menu__item {
+        margin: 20px auto;
+        width: 50%;
     }
 }
