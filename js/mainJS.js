@@ -1,0 +1,11 @@
+const burger = document.querySelector('#burger')
+//console.log(burger)
+const menu = document.querySelector('#menu')
+//console.log(menu)
+burger.addEventListener('click',()=>{
+    //console.log(11)
+    document.body.classList.toggle('stop')
+    burger.classList.toggle('active')
+    menu.classList.toggle('disp')
+    menu.classList.toggle('active')
+})

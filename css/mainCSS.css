@@ -23,6 +23,9 @@ a:hover {
     padding: 0 166px;
     margin: 0 auto;
 }
+.stop {
+    overflow: hidden;
+}
 /*header*/
 .header {
     background-image: url(../img/header/bg.jpg);
@@ -46,6 +49,11 @@ a:hover {
     margin-right: 25px;
 }
 .header__nav a{
+    font-size: 14px;
+    font-weight: 700;
+}
+.header__burger-item {
+    display: block;
     font-size: 14px;
     font-weight: 700;
 }
@@ -165,6 +173,28 @@ a:hover {
 /*header__burger*/
 .header__burger {
     display: none;
+    cursor: pointer;
+}
+.header__burger-slide {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    top: 20%;
+    left: 100%;
+    opacity: .95;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    padding-top: 20px;
+
+    transition: left 1s ease;
+}
+.header__burger-slide.active{
+    left: 0;
 }
 
 /*card*/
@@ -773,5 +803,8 @@ a:hover {
     }
     .header__advertising:before{
         width: 0;
+    }
+    .header__burger-slide {
+        top: 35%;
     }
 }
